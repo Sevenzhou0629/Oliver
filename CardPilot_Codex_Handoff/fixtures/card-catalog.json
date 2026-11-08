@@ -1,0 +1,20 @@
+{
+  "_fixture": "User supplied card products; owner assignments are placeholders until users confirm. No accounts or card numbers included.",
+  "householdTimezone": "America/Los_Angeles",
+  "cards": [
+    {"productId":"chase_sapphire_preferred","displayName":"Chase Sapphire Preferred","primaryCount":2,"authorizedUserCount":0,"issuer":"Chase"},
+    {"productId":"world_of_hyatt","displayName":"World of Hyatt Credit Card","primaryCount":1,"authorizedUserCount":1,"issuer":"Chase"},
+    {"productId":"amazon_prime_visa","displayName":"Prime Visa","primaryCount":1,"authorizedUserCount":0,"issuer":"Chase"},
+    {"productId":"chase_freedom_legacy","displayName":"Chase Freedom (legacy)","primaryCount":1,"authorizedUserCount":0,"issuer":"Chase"},
+    {"productId":"chase_freedom_unlimited","displayName":"Chase Freedom Unlimited","primaryCount":1,"authorizedUserCount":0,"issuer":"Chase"},
+    {"productId":"amex_platinum_personal","displayName":"American Express Platinum (personal)","primaryCount":2,"authorizedUserCount":0,"issuer":"American Express"},
+    {"productId":"hilton_aspire","displayName":"Hilton Honors American Express Aspire","primaryCount":1,"authorizedUserCount":1,"issuer":"American Express"},
+    {"productId":"us_bank_cash_plus","displayName":"U.S. Bank Cash+","primaryCount":1,"authorizedUserCount":0,"issuer":"U.S. Bank"},
+    {"productId":"capital_one_rei","displayName":"REI Co-op Mastercard","primaryCount":1,"authorizedUserCount":0,"issuer":"Capital One"},
+    {"productId":"citi_costco_anywhere","displayName":"Costco Anywhere Visa","primaryCount":1,"authorizedUserCount":0,"issuer":"Citi"},
+    {"productId":"atmos_summit","displayName":"Atmos Rewards Summit Visa Infinite","primaryCount":2,"authorizedUserCount":0,"issuer":"Bank of America"},
+    {"productId":"barclays_hawaiian","displayName":"Hawaiian Airlines World Elite Mastercard","primaryCount":1,"authorizedUserCount":0,"issuer":"Barclays"},
+    {"productId":"delta_amex_platinum","displayName":"Delta SkyMiles Platinum American Express","primaryCount":1,"authorizedUserCount":0,"issuer":"American Express"},
+    {"productId":"marriott_chase_95","displayName":"Chase Marriott $95 annual fee card (exact SKU to verify)","primaryCount":1,"authorizedUserCount":0,"issuer":"Chase"}
+  ]
+}

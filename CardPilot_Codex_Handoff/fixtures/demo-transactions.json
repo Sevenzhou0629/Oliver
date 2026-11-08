@@ -1,0 +1,9 @@
+{
+  "_fixture":"FICTIONAL DEMO TRANSACTIONS ONLY — NOT USER BANK DATA",
+  "transactions":[
+    {"id":"demo-tx-1","member":"person_a","merchant":"PCC Community Markets","amountMinor":9500,"currency":"USD","date":"2026-11-02","pending":false,"category":"groceries"},
+    {"id":"demo-tx-2","member":"person_b","merchant":"Trader Joe's","amountMinor":6200,"currency":"USD","date":"2026-11-04","pending":false,"category":"groceries"},
+    {"id":"demo-tx-3","member":"person_a","merchant":"Example Hotel","amountMinor":20000,"currency":"USD","date":"2026-11-06","pending":true,"category":"travel"},
+    {"id":"demo-tx-4","member":"person_b","merchant":"Demo Grocery","amountMinor":4500,"currency":"USD","date":"2026-11-07","pending":false,"category":"groceries"}
+  ]
+}
