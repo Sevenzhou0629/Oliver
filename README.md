@@ -38,7 +38,7 @@ xcodegen generate
 open CardPilot.xcodeproj
 ```
 
-Run the `CardPilot` scheme on an iOS 17+ simulator while the API runs. Home, Discover, Spending, Wallet and Settings use the API through Codable models. Settings switches demo members, changes transaction-sharing consent, checks sources, connects Plaid, and erases member data. Wallet includes a transparent flat-rate purchase comparison. Offer and benefit details support explicit reward attestations. No screenshots are included because local Xcode compilation/simulator launch was unavailable; macOS build CI is included.
+Run the `CardPilot` scheme on an iOS 17+ simulator while the API runs. Home, Discover, Spending, Wallet and Settings use the API through Codable models. Settings switches demo members, changes transaction-sharing consent, checks sources, connects Plaid, and erases member data. Wallet includes a transparent flat-rate purchase comparison. Offer and benefit details support explicit reward attestations. No screenshots are included because local Xcode compilation/simulator launch was unavailable; the [macOS simulator build passed in CI](https://github.com/Sevenzhou0629/Oliver/actions/runs/42493198462).
 
 The simulator uses localhost. For a physical device, deploy the API behind HTTPS and set its URL in Settings. Provider JWT input is memory-only development tooling; a shipped app needs an identity-provider sign-in flow and Keychain token storage. The UI is optimized for the seeded household/month; Settings includes development household invitation acceptance and account-mapping screens; full identity-provider sign-in remains future work. See [API.md](docs/API.md).
 
