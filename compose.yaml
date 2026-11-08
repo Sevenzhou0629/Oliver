@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: cardpilot
+      POSTGRES_PASSWORD: localonly
+      POSTGRES_DB: cardpilot
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["cardpilot-db:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cardpilot"]
+      interval: 2s
+      retries: 20
+volumes:
+  cardpilot-db:

@@ -1,0 +1,7 @@
+{
+  "_fixture":"FICTIONAL DEMO CONTENT ONLY — NOT ACTUAL CURRENT OFFERS",
+  "offers":[
+    {"id":"demo-1","merchant":"Example Hotel","title":"Spend $200, get $40 back","offerType":"statement_credit","minimumSpendMinor":20000,"rewardMinor":4000,"currency":"USD","expiresAt":"2027-01-31","sourceUrl":"https://example.com/fictional-demo-offer","sourceKind":"demo","verificationStatus":"mock_only","targeted":true,"personalEligibility":"unknown","enrollmentRequired":true},
+    {"id":"demo-2","merchant":"Demo Grocery","title":"5% back up to $15","offerType":"cashback","rewardRatePercent":5,"rewardCapMinor":1500,"currency":"USD","expiresAt":"2026-12-31","sourceUrl":"https://example.com/fictional-demo-offer-2","sourceKind":"demo","verificationStatus":"mock_only","targeted":false,"personalEligibility":"unknown","enrollmentRequired":false}
+  ]
+}
